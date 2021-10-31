@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import styles from "./Feedback.module.css";
 
 const Title = ({ title, children }) => {
@@ -10,3 +11,7 @@ const Title = ({ title, children }) => {
 }
 
 export default Title;
+
+Title.propTypes = {
+  title: PropTypes.string.isRequired
+}
