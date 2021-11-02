@@ -1,8 +1,8 @@
-import Statistics from "../components/Feedback/Statistics";
+import Statistics from "../components/Statistics/Statistics";
 import React from "react";
 import FeedbackOptions from "../components/Feedback/FeedbackOptions";
-import Title from "../components/Feedback/Title";
-import Notification from "../components/Feedback/Notification";
+import Title from "../components/Title/Title";
+import Notification from "../components/Notification/Notification";
 import styles from "../components/Feedback/Feedback.module.css";
 
 class App extends React.Component {

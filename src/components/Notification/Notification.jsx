@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styles from "./Feedback.module.css";
+import styles from "../Feedback/Feedback.module.css";
 
 const Notification = ({ message }) => {
     return (
